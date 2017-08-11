@@ -16,5 +16,5 @@
 powershell_script "DynatraceOneAgent" do
   guard_interpreter :powershell_script
   code "Invoke-WebRequest -Uri https://raw.githubusercontent.com/sysgain/IOT-ChefCookbooks/master/DynatraceOneAgent/Dynatrace_One_Agent_WindowsAgent.ps1 -OutFile c:/users/Dynatrace_One_Agent_WindowsAgent.ps1"
-  system("powershell.exe c:/users/Dynatrace_One_Agent_WindowsAgent.ps1")
+  system ("powershell.exe c:/users/Dynatrace_One_Agent_WindowsAgent.ps1")
 end
