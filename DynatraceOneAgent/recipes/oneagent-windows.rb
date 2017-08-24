@@ -24,7 +24,3 @@ windows_package 'DynatraceOneAgent' do
   installer_type :custom
   action :install
 end
-
-windows_service "Dynatrace OneAgent" do
-    action :restart
-end
