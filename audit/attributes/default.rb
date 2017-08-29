@@ -83,8 +83,10 @@ default['audit']['overwrite'] = true
 # See README.md for details
 default['audit']['profiles'] = [
   
-    {
-		name: 'windows-baseline',
-		git: 'https://github.com/dev-sec/windows-baseline'
+   {
+     	name: 'windows-baseline',
+	    #git: 'https://github.com/dev-sec/windows-baseline'
+        git: 'https://github.com/sudheermareddy/windows-baseline'
 	}
+
 	]
