@@ -1,6 +1,6 @@
 # encoding: utf-8
 #
-# Cookbook Name:: audit
+# Cookbook Name:: audit-linux
 # Recipe:: default
 #
 # Copyright 2016 Chef Software, Inc.
