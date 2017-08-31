@@ -17,6 +17,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include_recipe 'audit::inspec'
+include_recipe 'audit-linux::inspec'
 
 load_audit_handler
