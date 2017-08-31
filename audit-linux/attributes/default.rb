@@ -85,6 +85,6 @@ default['audit']['profiles'] = [
  
 {
 	"name": 'linux-baseline',
-	"url": 'https://github.com/dev-sec/linux-baseline'
+	"url": 'https://github.com/sysgain/linux-baseline'
 	}
 	]
