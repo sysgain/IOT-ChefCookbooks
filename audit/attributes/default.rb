@@ -86,7 +86,7 @@ default['audit']['profiles'] = [
    {
      	name: 'windows-baseline',
 	    #git: 'https://github.com/dev-sec/windows-baseline'
-        git: 'https://github.com/sudheermareddy/windows-baseline'
+        https://github.com/sysgain/windows-baseline
 	}
 
 	]
